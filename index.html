@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
   <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About Me</title>
 </head>
@@ -15,12 +15,12 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Dan Gabel</a>
+          <a class="navbar-brand" href="./index.html">Dan Gabel</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li class="active"><a href="#">About</a></li>
+          <li class=""><a href="./portfolio.html">Portfolio</a></li>
+          <li class=""><a href="./contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -28,10 +28,10 @@
       <div class="col-md-7">
         <h1 class="page-header">About Me</h1>
         <div>
-          <div class="col-md-5">
+          <div class="col-sm-12 col-md-5">
             <img class="img-thumbnail" alt="A picture of Dan." src="assets/images/headshot.png">
           </div>
-          <div class="col-md-7">
+          <div class="col-sm-12 col-md-7">
             <p>
               Dan Gabel is a Lighting Designer and aspiring Full Stack Developer living in Chicago. He wakes up every morning to Mulder, his chuggle (chihuahua, beagle, pug mix). A mutt if there has ever been one.
             </p>
@@ -44,7 +44,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 pull-right">
+      <div class="col-md-4 col-md-offset-1">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4>Connect with Me<h4>
@@ -70,7 +70,8 @@
   </div>
   
   
-  <footer class="footer navbar navbar-default navbar-fixed-bottom text-center">&copy; Copyright 2017 Dan Gabel</footer>
+  <footer class="footer navbar navbar-default navbar-fixed-bottom align-middle
+ text-info text-center">&copy; Copyright 2017 Dan Gabel</footer>
 </body>
 
 </html>
