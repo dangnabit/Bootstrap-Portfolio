@@ -4,71 +4,78 @@
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <div id="headerspace">
-        <h1 id="title">Dan Gabel</h1>
-        <nav>
-          <ul>
-            <li><a class="nav" href="./index.html">About</a></li>
-            <li class="pipe">|</li>
-            <li><a class="nav" href="./portfolio.html">Portfolio</a></li>
-            <li class="pipe">|</li>
-            <li><a class="nav" href="./contact.html">Contact</a></li>
-          </ul>
-        </nav>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./index.html">Dan Gabel</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./index.html">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
       </div>
-    </header>
-    <div class="content">
-      <section>
-        <h2>Portfolio</h2>
-        <div id="portfolio">
-          <div class="port portl">
-            <a class="port" href=""><img class="portimg" alt="Hangman" src="assets/images/caps.jpg"></a>
-            <h4>Hangman</h4>
-          </div>
-          <div class="port portr">
-            <a class="port" href=""><img class="portimg" alt="RPG Game" src="assets/images/abstract.jpg"></a>
-            <h4>RPG Game</h4>
-          </div>
-          <div class="port portl">
-            <a class="port" href=""><img class="portimg" alt="Trivia Game" src="assets/images/Coil.jpg"></a>
-            <h4>Trivia Game</h4>
-          </div>
-          <div class="port portr">
-            <a class="port" href=""><img class="portimg" alt="Rutgers Info Widget" src="assets/images/headphones.jpg"></a>
+    </nav>
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="page-header">Portfolio</h1>
+        <div class="col-md-6">
+          <a class="" href=""><img class="" alt="Hangman" src="assets/images/caps.jpg" width="275" height="200">
+            <h4>Hangman</h4></a>
+        </div>
+        <div class="col-md-6">
+          <a class="" href=""><img class="" alt="RPG Game" src="assets/images/abstract.jpg" width="275" height="200">
+            <h4>RPG Game</h4></a>
+        </div>
+        <div class="col-md-6">
+          <a class="" href=""><img class="" alt="Trivia Game" src="assets/images/Coil.jpg" width="275" height="200">
+            <h4>Trivia Game</h4></a>
+        </div>
+        <div class="col-md-6">
+          <a class="" href=""><img class="" alt="Rutgers Info Widget" src="assets/images/headphones.jpg" width="275" height="200">
             <h4>Rutgers Info Widget</h4>
-          </div>
-          <div class="port portl">
-            <a class="port" href=""><img class="portimg" alt="Rock Paper Scissors" src="assets/images/technics.jpg"></a>
-            <h4>Rock Paper Scissors</h4>
-          </div>
-        </div>
-      </section>
-      <aside id="connect">
-        <h3>Connect with Me</h3>
-        <div id="social">
-          <a class="imglinks" href="https://github.com/dangnabit" target="_blank">
-            <img class="piclink" alt="Github" src="assets/images/github.png">
-          </a>
-          <a class="imglinks" href="https://www.linkedin.com/in/dan-gabel/" target="_blank">
-            <img class="piclink" alt="LinkedIn" src="assets/images/linkedin.png">
-          </a>
-          <a class="imglinks" href="http://stackoverflow.com/users/4960512/dangnabit" target="_blank">
-            <img class="piclink" alt="StackOverflow" src="assets/images/stackoverflow.png">
           </a>
         </div>
-      </aside>
+        <div class="col-md-6">
+          <a class="" href=""><img class="" alt="Rock Paper Scissors" src="assets/images/technics.jpg" width="275" height="200">
+            <h4>Rock Paper Scissors</h4></a>
+        </div>
+      </div>
+      <div class="col-md-4 pull-right">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>Connect with Me<h4>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <a href="https://github.com/dangnabit " target="_blank ">
+                <img class="col-md-4" alt="Github " src="assets/images/github.png ">
+              </a>
+              <a href="https://www.linkedin.com/in/dan-gabel/ " target="_blank ">
+                <img class="col-md-4" alt="LinkedIn " src="assets/images/linkedin.png ">
+              </a>
+              <a href="http://stackoverflow.com/users/4960512/dangnabit " target="_blank ">
+                <img class="col-md-4" alt="StackOverflow " src="assets/images/stackoverflow.png ">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="push"></div>
-    <footer id="footer">&copy; Copyright 2017 Dan Gabel</footer>
   </div>
+  <div class="push"></div>
+  </div>
+  
+  
+  <footer class="footer navbar navbar-default navbar-fixed-bottom text-center">&copy; Copyright 2017 Dan Gabel</footer>
 </body>
 
 </html>
